@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-texts-top {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.input-block {
+    width: 320px;
+    margin-top: 20px;
+}
+
+.input-inner {
+    margin-top: 8px;
+}
+
+.input-inner input {
+    width: 100%;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+
+
+/*
+.input-inner input:hover {
+    border: 1px solid red;
+}
+
+*/
+
+.input-inner *:hover {
+    border: 1px solid red;
+}
+
+
+
+.input-inner select {
+
+    background: #FFFFFF;
+    width: 100%;
+    height: 44px;
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    border-radius: 4px;
+    padding-left: 15px;
+}
+
+.input-texts-top {
+    text-transform: uppercase;
+}
+
+.bold-black-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-transform: uppercase;
+
+    /* Dark 100% */
+
+    color: #1F2041;
+}
+
+.grey-text {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+    text-align: right;
+    text-transform: uppercase;
+
+    /* Dark 50% */
+
+    color: rgba(31, 32, 65, 0.5);
+}
+
+.input-blocks {
+    display: flex;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.input-blocks .input-block {
+    width: 150px;
+}
+
+.variation {
+    margin-top: 49px;
+    
+}
+
+
+.name {
+    margin-left: 20px;
+    height: 18px;
+}
+
+
+
+
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {
+    background-color: #ddd;
+}
+
+
+.show {
+    display: block;
+}
+
+
+.input-arrow {
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}
+
+.right {
+    position: relative;
+}
+
+
+
+.spalni-element {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.spalni-right {
+    display: flex;
+}
+
+
+.spalni-minus {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.spalni-plus {
+    border: 1px solid gray;
+    border-radius: 50%;
+    background: white;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.spalni-right input {
+    border: none;
+    width: 40px;
+    text-align: center;
+}
+
+
+
+.checkbox-and-text {
+    display: flex;
+}
+
+
+.input-calculate {
+    width: 400px;
+}
+
+
+
+
+
+
+
+
