@@ -189,6 +189,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
+    font-weight: normal;
 }
 
 .spalni-plus {
@@ -201,6 +202,7 @@
     justify-content: center;
     display: flex;
     align-items: center;
+     font-weight: normal;
 }
 
 
@@ -219,11 +221,21 @@
 
 
 .input-calculate {
-    width: 400px;
+    width: 320px;
 }
 
+.groups {
+    border: 1px solid rgba(31, 32, 65, 0.25);
+    width: 320px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
 
-
+.input-block-new {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 18px;
+}
 
 
 
